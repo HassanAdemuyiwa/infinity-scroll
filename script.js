@@ -1,3 +1,4 @@
+// dotenv.config({ path: "./config.env" });
 const imageContainer = document.getElementById("image-container");
 const loader = document.getElementById("loader");
 
@@ -31,6 +32,7 @@ function setAttributes(element, attributes) {
 function displayPhotos() {
   imagesLoaded = 0;
   totalImages = photosArray.length;
+
   //Run function for each object in photosArray
   photosArray.forEach((photo) => {
     //Create <a> to link to Unsplash
