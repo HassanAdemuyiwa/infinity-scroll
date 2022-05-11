@@ -9,8 +9,8 @@ var photosArray = [];
 
 // Unsplash API
 const count = 30;
-const kokoro = AZg64zCDCqvtPFblDaNZfb2xpb08jJGlnyKJQWpkq88;
-const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${kokoro}&count=${count}`;
+const id = "AZg64zCDCqvtPFblDaNZfb2xpb08jJGlnyKJQWpkq88";
+const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${id}&count=${count}`;
 
 // Check if all images were loaded
 function imageLoaded() {
